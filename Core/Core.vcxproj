@@ -145,11 +145,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ForestTile.cpp" />
+    <ClCompile Include="GrassTile.cpp" />
+    <ClCompile Include="CropFieldTile.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MapGraphics.cpp" />
+    <ClCompile Include="GameMap.cpp" />
+    <ClCompile Include="MountainTile.cpp" />
+    <ClCompile Include="MouseHelper.cpp" />
+    <ClCompile Include="TileBase.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MapGraphics.h" />
+    <ClInclude Include="ForestTile.h" />
+    <ClInclude Include="GameMap.h" />
+    <ClInclude Include="GrassTile.h" />
+    <ClInclude Include="CropFieldTile.h" />
+    <ClInclude Include="MathConstants.h" />
+    <ClInclude Include="MountainTile.h" />
+    <ClInclude Include="MouseHelper.h" />
+    <ClInclude Include="TileBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
