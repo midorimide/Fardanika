@@ -162,7 +162,17 @@
     <ClInclude Include="MathConstants.h" />
     <ClInclude Include="MountainTile.h" />
     <ClInclude Include="MouseHelper.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="TileBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Core.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\forest.png" />
+    <Image Include="Textures\grass.png" />
+    <Image Include="Textures\mountain.png" />
+    <Image Include="Textures\wheat.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
