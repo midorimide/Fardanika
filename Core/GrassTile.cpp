@@ -1,11 +1,13 @@
 #include "GrassTile.h"
+#include "ResourceLoader.h"
+#include "resource.h"
 
 static sf::Texture* texture;
 
 GrassTile::GrassTile() : TileBase() {
 	if (texture == NULL) {
 		texture = new sf::Texture();
-		texture->loadFromFile("C:/Users/silaiev/Pictures/grass.png");
+		texture->loadFromImage(ResourceLoader::loadImage(IDB_BITMAP4));
 	}
 	setTexture(texture);
 }

@@ -47,17 +47,16 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// PNG
+// Bitmap
 //
 
-IDB_PNG1                PNG                     "forest.png"
+IDB_BITMAP1             RCDATA                  "mountains.bmp"
 
-IDB_PNG2                PNG                     "grass.png"
+IDB_BITMAP2             RCDATA                  "trees.bmp"
 
-IDB_PNG3                PNG                     "mountain.png"
+IDB_BITMAP3             RCDATA                  "wheat.bmp"
 
-IDB_PNG4                PNG                     "wheat.png"
-
+IDB_BITMAP4             RCDATA                  "grass.bmp"
 
 #endif    // Ukrainian (Ukraine) resources
 /////////////////////////////////////////////////////////////////////////////

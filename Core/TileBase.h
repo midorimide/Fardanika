@@ -5,7 +5,7 @@
 class TileBase : public sf::ConvexShape {
 
 public:
-	static constexpr int HEX_SIDE_SIZE = 40;
+	static constexpr int HEX_SIDE_SIZE = 60;
 	static constexpr float HEX_WIREFRAME_X_OFFSET = HEX_SIDE_SIZE * SIN_PI_DIV_3;
 	static constexpr float HEX_WIREFRAME_Y_OFFSET = HEX_SIDE_SIZE * COS_PI_DIV_3;
 	static constexpr float HEX_WIDTH = 2 * HEX_WIREFRAME_X_OFFSET;

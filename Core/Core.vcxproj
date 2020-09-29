@@ -152,6 +152,7 @@
     <ClCompile Include="GameMap.cpp" />
     <ClCompile Include="MountainTile.cpp" />
     <ClCompile Include="MouseHelper.cpp" />
+    <ClCompile Include="ResourceLoader.cpp" />
     <ClCompile Include="TileBase.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -163,16 +164,17 @@
     <ClInclude Include="MountainTile.h" />
     <ClInclude Include="MouseHelper.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourceLoader.h" />
     <ClInclude Include="TileBase.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Core.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Textures\forest.png" />
-    <Image Include="Textures\grass.png" />
-    <Image Include="Textures\mountain.png" />
-    <Image Include="Textures\wheat.png" />
+    <Image Include="grass.bmp" />
+    <Image Include="wheat.bmp" />
+    <Image Include="trees.bmp" />
+    <Image Include="mountains.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

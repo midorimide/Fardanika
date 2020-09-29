@@ -39,6 +39,9 @@
     <ClCompile Include="ForestTile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ResourceLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MathConstants.h">
@@ -68,6 +71,9 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ResourceLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Core.rc">
@@ -75,16 +81,16 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Textures\forest.png">
+    <Image Include="mountains.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="Textures\grass.png">
+    <Image Include="trees.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="Textures\mountain.png">
+    <Image Include="wheat.bmp">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="Textures\wheat.png">
+    <Image Include="grass.bmp">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
